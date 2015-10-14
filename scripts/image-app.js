@@ -6,7 +6,7 @@
   var canvas = document.querySelector('#image');
   var ctx = canvas.getContext('2d');
 
-  var myWorker = new Worker("script/worker.js");
+  var myWorker = new Worker("scripts/worker.js");
 
   function handleImage(e){
     var reader = new FileReader();
